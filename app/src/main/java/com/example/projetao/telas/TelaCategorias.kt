@@ -47,7 +47,7 @@ fun TelaCategorias(voltar: () -> Unit) {
         }
 
         Text(
-            text = "📂 Categorias",
+            text = "Categorias",
             fontSize = 24.sp,
             fontWeight = FontWeight.Bold,
             modifier = Modifier

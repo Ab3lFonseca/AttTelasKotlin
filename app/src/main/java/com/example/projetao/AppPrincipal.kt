@@ -24,5 +24,17 @@ fun AppPrincipal() {
         "categorias" -> TelaCategorias {
             telaAtual = "menu"
         }
+
+        "livro" -> TelaLivro {
+            telaAtual = "menu"
+        }
+
+        "boaviagem" -> TelaBoaViagem {
+            telaAtual = "menu"
+        }
+
+        "chat" -> TelaChat {
+            telaAtual = "menu"
+        }
     }
 }
