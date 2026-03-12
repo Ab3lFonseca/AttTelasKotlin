@@ -35,7 +35,7 @@ fun TelaChat(voltar: () -> Unit) {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
 
-        // Botão Voltar
+
         Button(
             onClick = { voltar() },
             modifier = Modifier
@@ -47,7 +47,7 @@ fun TelaChat(voltar: () -> Unit) {
 
         Spacer(modifier = Modifier.height(30.dp))
 
-        // Título/Ícone
+
         Text(
             text = "💬",
             fontSize = 64.sp,
@@ -70,7 +70,7 @@ fun TelaChat(voltar: () -> Unit) {
 
         Spacer(modifier = Modifier.height(20.dp))
 
-        // Campos de entrada
+
         if (isRegistering) {
             OutlinedTextField(
                 value = nome,
@@ -110,7 +110,7 @@ fun TelaChat(voltar: () -> Unit) {
             shape = RoundedCornerShape(8.dp)
         )
 
-        // Botão Social - Facebook
+
         Button(
             onClick = { },
             modifier = Modifier
@@ -123,14 +123,14 @@ fun TelaChat(voltar: () -> Unit) {
             shape = RoundedCornerShape(8.dp)
         ) {
             Text(
-                text = "📘 Sign with f",
+                text = "Sign with f",
                 color = Color.White,
                 fontSize = 14.sp,
                 fontWeight = FontWeight.Bold
             )
         }
 
-        // Botão Social - Twitter
+
         Button(
             onClick = { },
             modifier = Modifier
@@ -150,7 +150,7 @@ fun TelaChat(voltar: () -> Unit) {
             )
         }
 
-        // Botão Principal (Register ou Log In)
+
         Button(
             onClick = {
                 if (!isRegistering) {
@@ -175,7 +175,7 @@ fun TelaChat(voltar: () -> Unit) {
 
         Spacer(modifier = Modifier.height(20.dp))
 
-        // Link para trocar entre login e registro
+
         Row(
             modifier = Modifier.padding(20.dp),
             horizontalArrangement = Arrangement.Center

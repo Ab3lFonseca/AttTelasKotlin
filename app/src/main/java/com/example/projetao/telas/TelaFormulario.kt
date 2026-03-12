@@ -148,7 +148,7 @@ fun TelaFormulario(voltar: () -> Unit) {
 
         Spacer(modifier = Modifier.height(20.dp))
 
-        // Resumo da Atividade
+
         Card(
             modifier = Modifier.fillMaxWidth(),
             elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)

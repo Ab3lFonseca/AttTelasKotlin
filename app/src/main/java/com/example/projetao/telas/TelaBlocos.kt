@@ -29,7 +29,7 @@ fun TelaBlocos(voltar: () -> Unit) {
                 .padding(8.dp)
         ) {
 
-            // COLUNA ESQUERDA
+
             Column(
                 modifier = Modifier
                     .weight(1f)
@@ -55,7 +55,7 @@ fun TelaBlocos(voltar: () -> Unit) {
 
             Spacer(modifier = Modifier.width(4.dp))
 
-            // COLUNA DIREITA
+
             Column(
                 modifier = Modifier
                     .weight(1f)
